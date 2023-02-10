@@ -1,10 +1,10 @@
 terraform {
  backend "s3"{
-       bucket = "drithirajni-s3-backend"
+       bucket = "kalyaniraj-s3-backend"
        region = "us-east-1"
        key = "terraform/remotestate/terraform.tfstate"
 
-       dynamodb_table = "backend1"
+       dynamodb_table = "backend2"
      } 
 }
 

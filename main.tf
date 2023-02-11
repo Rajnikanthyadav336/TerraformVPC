@@ -1,10 +1,10 @@
 terraform {
  backend "s3"{
-       bucket = "chikkaraja-s3-backend"
+       bucket = "chikka-s3-backend"
        region = "us-east-1"
        key = "terraform/remotestate/terraform.tfstate"
 
-       dynamodb_table = "backend6"
+       dynamodb_table = "backend7"
      } 
 }
 

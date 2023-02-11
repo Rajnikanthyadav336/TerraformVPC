@@ -4,7 +4,7 @@ terraform {
        region = "us-east-1"
        key = "terraform/remotestate/terraform.tfstate"
 
-       dynamodb_table = "backend1"
+       dynamodb_table = "backend6"
      } 
 }
 
